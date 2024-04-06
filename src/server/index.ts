@@ -1,3 +1,3 @@
-import { appRouter } from "./../server/routers";
+import { appRouter } from "./routers";
 
 export const trpcServerSide = () => appRouter.createCaller({ session: null });

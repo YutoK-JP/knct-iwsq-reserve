@@ -7,12 +7,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "rules": {
-    "import-access/jsdoc": ["error", {
-      "indexLoophole": true,
-      "filenameLoophole": false,
-      "defaultImportability": "package", // "public" | "package" | "private"
-      "treatSelfReferenceAs": "external" // "internal" | "external"
-    }]
+  "$rules": {
+    "$import-access/jsdoc": ["error"]
   }
 }
