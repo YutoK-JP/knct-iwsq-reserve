@@ -7,7 +7,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "$rules": {
-    "$import-access/jsdoc": ["error"]
+  "rules": {
+    "import-access/jsdoc": ["error"]
   }
 }
